@@ -1,0 +1,24 @@
+.jumbotron {
+  margin-bottom:0px;
+
+   background-image: url("window.jpg");
+   background-size: inherit inherit;
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+}
+
+#background {
+  background-color: skyblue;
+}
+
+#col1 {
+    background-color: blue;
+}
+
+#col2 {
+    background-color: black;
+}
+
+#col3 {
+    background-color: green;
+}
