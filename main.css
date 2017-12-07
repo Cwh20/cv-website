@@ -1,8 +1,12 @@
+body {
+    background-color: grey;
+}
+
 .jumbotron {
   margin-bottom:0px;
 
-   background-image: url("window.jpg");
-   background-size: inherit inherit;
+
+   background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-bottom: 500px;
 }
@@ -11,14 +15,37 @@
   background-color: skyblue;
 }
 
+.row {
+	padding-top:10px;
+}
+
+
 #col1 {
-    background-color: blue;
+    background-color:white;
+    padding:20px;
+}
+
+#col1 p{
+
+
 }
 
 #col2 {
-    background-color: black;
+    background-color:white;
+    padding:20px;
+}
+
+#col2 p{
+
+
 }
 
 #col3 {
-    background-color: green;
+    background-color:white;
+    padding:20px;
+}
+
+#col3 p{
+  
+
 }
