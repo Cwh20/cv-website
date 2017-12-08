@@ -1,6 +1,9 @@
+/* Comment tag */
+
 body {
     background-color: grey;
 }
+
 
 .jumbotron {
   margin-bottom:0px;
@@ -19,7 +22,77 @@ body {
 	padding-top:10px;
 }
 
+#contact.row {
+	margin-left:5px;
+	margin-right:5px;
+	
+}
 
+.profile {
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+.about {
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#DBEDFF;
+}
+
+.tab {
+	background-color:#DBEDFF;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.table td, .table th {
+    border-right: 1px solid #4578ab;
+    border-top: 1px solid #4578ab;
+}
+
+
+.table thead th {
+    
+    border-bottom: 2px solid #4578ab;
+}
+
+p.important {
+	font-weight: bold;
+}
+
+
+.form {
+	margin-top:16px;
+	background-color:#DBEDFF;
+	margin-left:5px;
+}
+
+textarea {
+    width: 98%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+section h5 {
+	padding-top:5px;
+	padding-left:5px;
+}
+
+textarea {
+	margin-left:5px;
+	
+}
+
+form input {
+	margin-left:20px;
+	margin-bottom:5px;
+}
 
 #cv {
 	background-color: grey;
@@ -33,17 +106,13 @@ iframe {
 
 
 #col1 {
-    background-color:white;
+    background-color:#DBEDFF;
     padding:20px;
 }
 
-#col1 p{
-
-
-}
 
 #col2 {
-    background-color:white;
+    background-color:#DBEDFF;
     padding:20px;
 }
 
@@ -53,7 +122,7 @@ iframe {
 }
 
 #col3 {
-    background-color:white;
+    background-color:#DBEDFF;
     padding:20px;
 }
 
