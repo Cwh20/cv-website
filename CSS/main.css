@@ -1,0 +1,157 @@
+/* General */
+
+body {
+    background-color: grey;
+}
+
+
+.jumbotron {
+  margin-bottom:0px;
+
+
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+}
+
+#background {
+  background-color: skyblue;
+}
+
+.row {
+	padding-top:10px;
+}
+
+section h5 {
+	padding-top:5px;
+	padding-left:5px;
+}
+
+
+
+
+
+/* For homepage */
+
+iframe {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+
+
+/* For contact.html */
+
+#contact.row {
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+
+.form {
+	margin-top:16px;
+	background-color:#DBEDFF;
+	margin-left:5px;
+}
+
+textarea {
+    width: 98%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	margin-left:5px;
+}
+
+form input {
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+
+
+
+/* For cv.html */
+
+#cv {
+	background-color: grey;
+}
+
+.profile {
+	margin-left:20px;
+	margin-bottom:5px;
+}
+
+.about {
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#DBEDFF;
+}
+
+.table td, .table th {
+    border-right: 1px solid #4578ab;
+    border-top: 1px solid #4578ab;
+}
+
+
+.table thead th {
+    
+    border-bottom: 2px solid #4578ab;
+}
+
+p.important {
+	font-weight: bold;
+}
+
+.tab {
+	background-color:#DBEDFF;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+/* For bootstrap */
+
+
+
+#col1 {
+    background-color:#DBEDFF;
+    padding:20px;
+}
+
+
+#col2 {
+    background-color:#DBEDFF;
+    padding:20px;
+}
+
+
+#col3 {
+    background-color:#DBEDFF;
+    padding:20px;
+}
+
+/* For footer */
+
+footer {
+	margin-top:5px;
+	width:100%;
+	border-top-style: solid;
+	border-width: 1px;
+}
+
+footer p {
+	float:left;
+	margin-left:20px;
+	
+}
+
+
