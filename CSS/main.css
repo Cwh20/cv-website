@@ -14,6 +14,14 @@ body {
     padding-bottom: 500px;
 }
 
+
+	/* For navbar */
+a:hover {
+    background-color: #3396ff;
+	color: white;
+}
+
+
 #background {
   background-color: skyblue;
 }
@@ -43,7 +51,6 @@ iframe {
 
 
 
-
 /* For contact.html */
 
 #contact.row {
@@ -56,6 +63,7 @@ iframe {
 	margin-top:16px;
 	background-color:#DBEDFF;
 	margin-left:5px;
+	margin-right:5px;
 }
 
 textarea {
@@ -118,6 +126,8 @@ p.important {
 }
 
 
+
+
 /* For bootstrap */
 
 
@@ -138,6 +148,20 @@ p.important {
     background-color:#DBEDFF;
     padding:20px;
 }
+
+/* For the profile picture */
+img.rounded-circle {
+		width:304px;
+		height:236px;
+	}
+
+@media screen and (max-width: 333px) {
+	img.rounded-circle {
+		width:150px;
+		height:150px;
+	}
+}
+
 
 /* For footer */
 
