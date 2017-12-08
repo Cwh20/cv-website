@@ -1,4 +1,4 @@
-/* Comment tag */
+/* General */
 
 body {
     background-color: grey;
@@ -22,44 +22,35 @@ body {
 	padding-top:10px;
 }
 
+section h5 {
+	padding-top:5px;
+	padding-left:5px;
+}
+
+
+
+
+
+/* For homepage */
+
+iframe {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+
+
+/* For contact.html */
+
 #contact.row {
 	margin-left:5px;
 	margin-right:5px;
 	
 }
-
-.profile {
-	margin-left:20px;
-	margin-bottom:5px;
-}
-
-.about {
-	margin-left:10px;
-	margin-right:10px;
-	background-color:#DBEDFF;
-}
-
-.tab {
-	background-color:#DBEDFF;
-	margin-left:10px;
-	margin-right:10px;
-}
-
-.table td, .table th {
-    border-right: 1px solid #4578ab;
-    border-top: 1px solid #4578ab;
-}
-
-
-.table thead th {
-    
-    border-bottom: 2px solid #4578ab;
-}
-
-p.important {
-	font-weight: bold;
-}
-
 
 .form {
 	margin-top:16px;
@@ -77,16 +68,7 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
-}
-
-section h5 {
-	padding-top:5px;
-	padding-left:5px;
-}
-
-textarea {
 	margin-left:5px;
-	
 }
 
 form input {
@@ -94,14 +76,49 @@ form input {
 	margin-bottom:5px;
 }
 
+
+
+
+/* For cv.html */
+
 #cv {
 	background-color: grey;
 }
 
-iframe {
-	margin-left:auto;
-	margin-right:auto;
+.profile {
+	margin-left:20px;
+	margin-bottom:5px;
 }
+
+.about {
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#DBEDFF;
+}
+
+.table td, .table th {
+    border-right: 1px solid #4578ab;
+    border-top: 1px solid #4578ab;
+}
+
+
+.table thead th {
+    
+    border-bottom: 2px solid #4578ab;
+}
+
+p.important {
+	font-weight: bold;
+}
+
+.tab {
+	background-color:#DBEDFF;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+/* For bootstrap */
 
 
 
@@ -116,20 +133,13 @@ iframe {
     padding:20px;
 }
 
-#col2 p{
-
-
-}
 
 #col3 {
     background-color:#DBEDFF;
     padding:20px;
 }
 
-#col3 p{
-  
-
-}
+/* For footer */
 
 footer {
 	margin-top:5px;

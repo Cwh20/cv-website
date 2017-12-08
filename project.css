@@ -1,3 +1,5 @@
+/* CSS used here was to ensure that the columns on project.html worked smoothly */
+
 
 #col1 {
     margin-left: auto;
@@ -13,7 +15,7 @@
 }
 
 
-
+/* Once the screen reaches this width, the margins on the columns will get smaller*/
 @media screen and (max-width: 1199px) {
 #col1 {
 	margin-right: 120px;
@@ -26,7 +28,7 @@
 
 }
 
-
+/* Once the screen reaches this width, the margins on the columns will get even smaller*/
 @media screen and (max-width: 991px) {
   #col1 {
       margin-left: auto;
@@ -55,7 +57,7 @@
 
 
 }
-
+/* Once the screen reaches this width, this prevents a weird bug which ruined the layout*/
 @media screen and (max-width: 767px) {
 
   #col2 p{
@@ -65,6 +67,8 @@
 
 }
 
+/* Once the screen reaches this width, 
+the margins are set to 0px and the width of the columns rapidly increase */
 
 @media screen and (max-width: 575px) {
   #col1 {
